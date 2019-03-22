@@ -1,6 +1,6 @@
 {
   "name": "leaflet-draw",
-  "version": "1.0.3",
+  "version": "1.0.3-zh",
   "description": "Vector drawing plugin for Leaflet",
   "devDependencies": {
     "eslint": "^3.5.0 <3.6.0",
@@ -40,10 +40,6 @@
     "test": "jake test",
     "docs": "jake docs",
     "release": "./build/publish.sh"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Leaflet/Leaflet.draw.git"
   },
   "keywords": [
     "maps",
@@ -94,5 +90,8 @@
       "key-spacing": 0,
       "consistent-return": 0
     }
+  },
+  "publishConfig": {
+    "registry": "http://192.168.1.101:8081/repository/npm-hosted/"
   }
 }
